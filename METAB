@@ -2,6 +2,8 @@
 
 game:GetService("ReplicatedStorage").RemoteEvents.A11vatarOriginalCharacterC11lient:FireServer("OCA")
 
+wait(1)
+
 local LocalPlayer = game:GetService("Players").LocalPlayer
 local Character = LocalPlayer.Character
 local Humanoid = Character:FindFirstChildOfClass("Humanoid")
